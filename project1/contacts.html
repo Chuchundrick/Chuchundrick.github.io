@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Мой Проект</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="contacts.html" class="active">Контакты</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="contacts-section">
+            <h1>Свяжитесь со мной</h1>
+            <p>Можете написать мне что-то хорошее или какую-нибудь гадость</p>
+
+            <div class="contact-info">
+                <h3>Мои контакты:</h3>
+                <p>📍 <strong>Город:</strong> Воронеж, Россия</p>
+                <p>📧 <strong>Email:</strong> nikitals22256@gmail.com</p>
+                <p>📱 <strong>Telegram:</strong> @microchelicc</p>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h3>Напишите мне</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" placeholder="Как к вам обращаться?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Ваш текст..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Отправить сообщение</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Мой Проект. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
